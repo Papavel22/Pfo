@@ -1,0 +1,32 @@
+
+.timers-container {
+     display: flex;
+    justify-content: center;
+}
+
+.timer-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer {
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.timer-value {
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: inline-table;
+}
+
+.timer-btn {
+    width: 35px;
+    border-radius: 0;
+    font-weight: bold;
+}

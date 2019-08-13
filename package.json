@@ -1,0 +1,29 @@
+{
+  "name": "pfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "highlightjs": "^9.12.0",
+    "jquery": "^3.4.1",
+    "validation": "0.0.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F-E-N-R-I-R/pfo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F-E-N-R-I-R/pfo/issues"
+  },
+  "homepage": "https://github.com/F-E-N-R-I-R/pfo#readme"
+}

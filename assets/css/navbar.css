@@ -1,0 +1,44 @@
+#pfo-nvbar {
+    left: 150px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    padding: 10px 10px 4px;
+    display: none;
+}
+
+#pfo-nvbar > button {
+    margin-left: 10px;
+}
+
+#pfo-nvbar i {
+    font-size: 0;
+}
+
+@media screen and (max-width: 767px) {
+    #pfo-nvbar {
+        left: 70px;
+    }
+
+    #pfo-nvbar .btn {
+        font-size: 0;
+    }
+
+    #pfo-nvbar i {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #pfo-nvbar {
+        left: 50px;
+    }
+
+    #pfo-nvbar .btn {
+        font-size: 0;
+    }
+
+    #pfo-nvbar i {
+        font-size: 14px;
+    }
+}

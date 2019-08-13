@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PFO</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+	<link rel="stylesheet" href="node_modules/highlightjs/styles/default.css">
+	<link rel="stylesheet" href="assets/css/navbar.css">
+	<link rel="stylesheet" href="assets/css/sidebar.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+	<div id="pfo">
+		<div id="pfo-sidebar">
+			<a href="#window" class="logo">
+				<div class="logoContainer"></div>
+			</a>
+			<ul class="nav nav-stacked"></ul>
+		</div>
+
+		<div id="pfo-nvbar">
+			<button type="button" class="btn btn-primary pull-right btn-run">RUN<i class="fas fa-code"></i></button>
+			<div id="push" class="btn-group pull-right" role="group" aria-label="Basic example">
+				<button type="button" class="btn btn-primary btn-html">HTML<i class="fab fa-html5"></i></button>
+				<button type="button" class="btn btn-primary btn-css">CSS<i class="fab fa-css3"></i></button>
+				<button type="button" class="btn btn-primary btn-js">JS<i class="fab fa-js"></i></button>
+			</div>
+		</div>
+
+		<div id="pfo-content">
+			<div class="scroll-container">
+				<pre></pre>
+				<div class="invite">
+					HI
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/highlightjs/highlight.pack.min.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/sidebar.js"></script>
+<script src="assets/js/navbar.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/index.js"></script>
+</html>

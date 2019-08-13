@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form class="form" novalidate>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" class="form-control" placeholder="Enter your phone">
+        </div>
+        <div class="form-group">
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" name="mail" class="form-control" placeholder="Enter your E-mail">
+        </div>
+        <div class="form-group">
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="password" class="form-control" placeholder="Enter your Password">
+        </div>
+        <div class="form-group">
+            <label for="confirmPass">Confirm password</label>
+            <input type="password" id="confirmPass" name="confirm_password" class="form-control" placeholder="Confirm your Password">
+        </div>
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" class="form-control" placeholder="Enter your Age">
+        </div>
+        <button type="submit" class="btn btn-default btnSub" id="submit">Submit</button>
+    </form>
+    <div class="cardsStacked"></div>
+
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js" ></script>
+</body>
+</html>

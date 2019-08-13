@@ -1,0 +1,145 @@
+#pfo-sidebar {
+    background-color: #2e75bd;
+    border: 1px solid #ebf2ff;
+    width: 150px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    z-index: 2;
+}
+
+#pfo-sidebar img {
+    width: 100%;
+    height: auto;
+}
+
+#pfo-sidebar ul {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+#pfo-sidebar li {
+    text-align: center;
+}
+
+#pfo-sidebar a {
+    color: #a5a8b0;
+}
+
+#pfo-sidebar .logoContainer {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    background: url("../images/logo.png") no-repeat;
+    background-size: 100%;
+}
+
+#pfo-sidebar li .fas {
+    font-size: 0;
+}
+
+#window {
+    background-color: #FFF;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #2e75bd;
+    border-radius: 10px;
+    color: #2e75bd;
+    display: none;
+    position: absolute;
+    left: 150px;
+    z-index: 2;
+}
+
+#window:target {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    display: inline-block;
+    color: #2e75bd;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.close:hover {
+}
+
+.fa-window-close {
+    color: #908c75;
+}
+
+.modalList {
+    padding: 0;
+}
+
+.modalList li {
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+    #pfo-sidebar .logoContainer {
+
+        height: 100px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #pfo-sidebar {
+        width: 70px;
+    }
+
+    #pfo-sidebar .logoContainer {
+        height: 70px;
+        width: 70px;
+    }
+
+    #window {
+        left: 70px;
+    }
+
+    #pfo-sidebar li {
+        font-size: 0;
+
+    }
+
+    #pfo-sidebar li .fas {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    #pfo-sidebar {
+        width: 50px;
+    }
+
+    #window {
+        left: 50px;
+    }
+
+    #pfo-sidebar .logoContainer {
+        height: 50px;
+        width: 100%;
+        margin: auto;
+    }
+
+    #pfo-sidebar li {
+        font-size: 0;
+
+    }
+
+    #pfo-sidebar li .fas {
+        font-size: 15px;
+    }
+
+}

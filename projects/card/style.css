@@ -1,0 +1,31 @@
+.form {
+    width: 30%;
+    margin-bottom: 20px;
+    position: relative;
+    left: 35%;
+}
+
+.error {
+    border: 1px solid #ff0700;
+ }
+
+.card {
+    display: inline-flex;
+    width: 30%;
+    height: 280px;
+    padding: 25px;
+    margin: 1.5%;
+    background-color: #62e558;
+    border: solid 1px;
+    border-radius: 42px;
+}
+
+.cardsStacked {
+    display: block;
+    padding: 25px;
+    max-width: 100%;
+}
+
+.error-message {
+    color: #ff0700;
+}

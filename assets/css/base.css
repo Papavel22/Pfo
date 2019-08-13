@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    min-width: 255px;
+    overflow: hidden;
+    position: fixed;
+}
+
+#pfo-content .scroll-container {
+    padding: 0 15px;
+}
+
+#pfo-content {
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 150px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#pfo-content.light {
+    background-color: #FFF7B2;
+    color: #000;
+}
+
+#pfo-content.dark {
+    background-color: #000;
+    color: #FFF7B2;
+}
+
+#pfo-content .scroll-container pre {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    #pfo-content {
+        left: 70px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #pfo-content {
+        left: 50px;
+    }
+}
