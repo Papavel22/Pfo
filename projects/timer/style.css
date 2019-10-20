@@ -1,7 +1,16 @@
 
+.timer-form {
+    width: 50%;
+    margin: 0px auto;
+    padding: 25px 0;
+    text-align: center;
+}
+
 .timers-container {
-     display: flex;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .timer-block {
@@ -17,12 +26,20 @@
     cursor: pointer;
 }
 
+.timers-values-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .timer-value {
     padding: 5px;
     margin: 5px;
     font-weight: bold;
     color: #FFFFFF;
-    display: inline-table;
+    width: 20%;
 }
 
 .timer-btn {

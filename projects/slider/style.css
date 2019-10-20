@@ -9,9 +9,13 @@
     position: relative;
     width: 500px;
     overflow: hidden;
+    height: 300px;
 }
 
 .slider-wrapper ul {
+    position: relative;
+    top: -70px;
+    display: flex;
     margin: 0;
     width: 2500px;
     list-style: none;

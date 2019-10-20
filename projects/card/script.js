@@ -134,12 +134,6 @@ $(function() {
                         mail(str) {
                             return this.regEx.mailPattern.test(str) ? null : 'Should be valid Email';
                         },
-                        password(str) {
-                            return this.regEx.passwordPattern.test(str) ? null : 'Should be valid Password';
-                        },
-                        // confirm_password(str, pass) {
-                        //     return str === pass ? null : 'These passwords don\'t match';
-                        // },
                         age(num) {
                             return (num >= 0 && num <= 100) ? null : 'Should be from 0 to 100 years';
                         },
@@ -174,12 +168,6 @@ $(function() {
                         mail(str) {
                             return (this.rules.required(str) || this.rules.mail(str));
                         },
-                        password(str) {
-                            return (this.rules.required(str) || this.rules.password(str));
-                        },
-                        // confirm_password(str, pass) {
-                        //     return (this.rules.required(str) || this.rules.confirm_password(str, pass));
-                        // },
                         age(num) {
                             return this.rules.age(num);
                         }

@@ -423,7 +423,7 @@ $(function () {
                 }
 
                 _addRound() {
-                    const value = $('<span>', {
+                    const value = $('<div>', {
                         class: 'timer-value ' + this.options.id,
                         text: this.options.name + ' ' + timerHelper.generateValue(this.seconds),
                         css: {
@@ -481,10 +481,34 @@ $(function () {
                     return $(
                         '<div>',
                         {
+
+
                             class: 'timer-page',
                             html:
-                                $('<input>', { type: 'text' }).get(0).outerHTML +
-                                $('<button>', { class: 'btn', text: '+', disabled: true }).get(0).outerHTML +
+                                $('<div>',{
+                                    class:'timer-form',
+                                    html:
+                                        $('<div>', {
+                                            class: 'input-group',
+                                            html:
+                                                $('<span>', {
+                                                    class: 'input-group-addon',
+                                                    id: 'sizing-addon2',
+                                                    text: 'Timer name',
+                                                }).get(0).outerHTML +
+                                                $('<input>',
+                                                    {
+                                                        class: 'form-control timer-name-input',
+                                                        type: 'text',
+                                                        ariaDescribedby: 'sizing-addon2',
+                                                    }).get(0).outerHTML +
+                                                $('<button>', {
+                                                    class: 'btn',
+                                                    text: '+',
+                                                    disabled: true
+                                                }).get(0).outerHTML
+                                        }).get(0).outerHTML
+                                }).get(0).outerHTML +
                                 $('<div>', { class: 'timers-container' }).get(0).outerHTML +
                                 $('<div>', { class: 'timers-values-container' }).get(0).outerHTML,
                         });

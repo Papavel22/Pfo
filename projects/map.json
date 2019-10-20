@@ -12,23 +12,7 @@
         "description": "Best timer ever"
     },
     {
-        "title": "calendar",
-        "description": "Best card ever"
-    },
-    {
-        "title": "form",
-        "description": "Best form ever"
-    },
-    {
-        "title": "gallery",
-        "description": "Best gallery ever"
-    },
-    {
-        "title": "gravity",
-        "description": "Best gravity ever"
-    },
-    {
-        "title": "game",
-        "description": "Best game ever"
+        "title": "ToDo",
+        "description": "Best ToDo ever"
     }
 ]

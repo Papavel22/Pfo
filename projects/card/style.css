@@ -5,6 +5,9 @@
     left: 35%;
 }
 
+.input-group-addon{
+    width: 30%;
+}
 .error {
     border: 1px solid #ff0700;
  }

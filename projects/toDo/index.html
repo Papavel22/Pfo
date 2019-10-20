@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container" id="container">
+        <form class="form">
+            <div class="input-group">
+                <span class="input-group-addon">Название события</span>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Event's name" required>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Дата события</span>
+                <input type="date" id="date"  name="date" class="form-control" required>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Время начала</span>
+                <input type="time" min="09:00" max="17:00" id="start-time" list="time-list-start" name="time" class="form-control" placeholder="" required>
+                <datalist id="time-list-start">
+                    <option value="09:00" span="09:00"></option>
+                    <option value="10:00" span="10:00"></option>
+                    <option value="11:00" span="11:00"></option>
+                    <option value="12:00" span="12:00"></option>
+                    <option value="13:00" span="13:00"></option>
+                    <option value="14:00" span="14:00"></option>
+                    <option value="15:00" span="15:00"></option>
+                    <option value="16:00" span="16:00"></option>
+                    <option value="17:00" span="17:00"></option>
+                </datalist>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Время конца</span>
+                <input type="time" min="10:00" max="18:00" id="finish-time" name="time" list="time-list-finish" class="form-control" placeholder="" required>
+                <datalist id="time-list-finish">
+                    <option value="10:00" span="10:00"></option>
+                    <option value="11:00" span="11:00"></option>
+                    <option value="12:00" span="12:00"></option>
+                    <option value="13:00" span="13:00"></option>
+                    <option value="14:00" span="14:00"></option>
+                    <option value="15:00" span="15:00"></option>
+                    <option value="16:00" span="16:00"></option>
+                    <option value="17:00" span="17:00"></option>
+                    <option value="18:00" span="18:00"></option>
+
+                </datalist>
+            </div>
+            <button type="submit" class="btn btn-default btnSub" id="submit" >Добавить Событие</button>
+        </form>
+
+
+</div>
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js" ></script>
+</body>
+</html>
