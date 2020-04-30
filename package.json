@@ -6,7 +6,7 @@
   "dependencies": {
     "bootstrap": "^3.4.1",
     "highlightjs": "^9.12.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "validation": "0.0.1",
     "underscore": "^1.9.1"
   },
